@@ -21,5 +21,14 @@ O site foi concebido para funcionar como um hub digital. Ele deverá conter:
 
 Portanto, o projeto nasceu da convergência entre sensibilidade social e inovação tecnológica, visando não apenas fornecer informações, mas também gerar acolhimento e esperança. O site será uma ferramenta prática para fortalecer a missão da ONG: ajudar na cura e prevenção de todo tipo de vício, resgatando vidas e fortalecendo comunidades.
 
+## WireFrame 
+
+<img width="747" height="397" alt="image" src="https://github.com/user-attachments/assets/01ff4d7d-0804-4029-995a-90b5ac174f02" /> 
+
+_Pagina inicial, onde irá conter um acesso rapido para conhecer mais o projeto e irá redirecionar para a secção da pagina correspondente, para realizar a ajuda ao paciente_
+
+
+
+
 
 
