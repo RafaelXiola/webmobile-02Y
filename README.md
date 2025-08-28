@@ -25,7 +25,41 @@ Portanto, o projeto nasceu da convergência entre sensibilidade social e inovaç
 
 <img width="747" height="397" alt="image" src="https://github.com/user-attachments/assets/01ff4d7d-0804-4029-995a-90b5ac174f02" /> 
 
-_Pagina inicial, onde irá conter um acesso rapido para conhecer mais o projeto e irá redirecionar para a secção da pagina correspondente, para realizar a ajuda ao paciente_
+_Secção inicial da HomePage, onde irá conter um acesso rapido para conhecer mais o projeto e irá redirecionar para a secção da pagina correspondente, para realizar a ajuda ao paciente._
+
+<img width="739" height="486" alt="image" src="https://github.com/user-attachments/assets/6ebe1868-e8be-405c-8fcb-a4e8738f2934" />
+
+_Secção de Relatos da HomePage, para realizar uma conexão e prova social do sistema para que atraia mais pessoas a participar do projeto, com um link de CTA pora conhecer mais relatos em uma pagina separada que será criada apenas para isso._
+
+<img width="739" height="619" alt="image" src="https://github.com/user-attachments/assets/1e5cd02c-7c51-43d5-8753-fbdb7f073550" />
+
+_Secção sobre a ONG da HomePage, onde irá contar a tragetoria atraves de um mapa virtual com pontos onde a ONG está presente para mais acessebilidade._
+
+<img width="735" height="225" alt="image" src="https://github.com/user-attachments/assets/04e0bef8-00a5-4f65-9621-68f29e0c2f36" />
+
+_Secção de parceiros na HomePage, para que aqueles que auxiliam a ONG a existir tenham um espaço dedicado para retribuir o apoio e mostrar quem está por trás dessa iniciativa social._
+
+<img width="724" height="367" alt="image" src="https://github.com/user-attachments/assets/8da39769-b50a-491e-a222-fd8f58dc7fb6" />
+
+_Secção de Ajuda na HomePage, nela irá conter blocos com CTA para cada um dos tipos de vicios que tratamos para que o paciente consiga de forma intuitiva acessar a pagina de ajuda dedicada._
+
+<img width="758" height="354" alt="image" src="https://github.com/user-attachments/assets/a1825105-f43c-421d-84f0-8382bf4aec6b" />
+
+_Secção de Perguntas Frequentes na HomePage, com ela é possivel realizar uma triagem rapida evitando congestionamento nos canais de atendimento, sanando duvidas rapidas de pacientes e familiares logo na HomePage._
+
+<img width="749" height="312" alt="image" src="https://github.com/user-attachments/assets/83d1e83d-a1cc-4714-b36d-1ac40c9e4bde" />
+
+_Secção de Footer, para navegação simplificada e para realizar um contato com os nossos canais de atendimento._
+
+
+
+
+
+
+
+
+
+
 
 
 
