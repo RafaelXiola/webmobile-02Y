@@ -5,7 +5,6 @@ PROJETO DE WEBMOBILE TURMA 02Y 2025
 * Rafael Viola - RA: 10737197
 * Andre Cintra - RA: 10738062
 * Rafela Zaghi - RA: 10737950
-* Antonio Remilson - RA: 10722184
 
 # NOME EM DESENVOLVIMENTO
 
