@@ -26,6 +26,16 @@ O site foi concebido para funcionar como um hub digital. Ele deverá conter:
 
 Portanto, o projeto nasceu da convergência entre sensibilidade social e inovação tecnológica, visando não apenas fornecer informações, mas também gerar acolhimento e esperança. O site será uma ferramenta prática para fortalecer a missão da ONG: ajudar na cura e prevenção de todo tipo de vício, resgatando vidas e fortalecendo comunidades.
 
+## Conclusão 
+
+O projeto BreakCircle - Quebra de Vícios foi muito mais do que a criação de um site: foi uma jornada de aprendizado, reflexão e colaboração. Desde o início, nos deparamos com um tema delicado e muito presente na sociedade, o que nos motivou a pensar em soluções que fossem realmente úteis e acolhedoras para quem vive essa realidade.
+
+Ao longo do desenvolvimento, aprendemos a importância de planejar bem cada etapa, ouvir diferentes perspectivas e pensar sempre na experiência de quem vai usar a plataforma. Também percebemos como a tecnologia pode ter um papel fundamental na aproximação entre pessoas que precisam de ajuda e aquelas que estão dispostas a oferecer apoio.
+
+Trabalhar em equipe foi essencial nesse processo. Cada integrante contribuiu com ideias, habilidades e dedicação, o que fez toda a diferença no resultado final. Além disso, aprendemos que, para além da parte visual e funcional do site, o mais importante é o impacto que ele pode causar na vida das pessoas.
+
+Encerramos este projeto com a sensação de dever cumprido e com muitos aprendizados que levaremos para os próximos desafios. Mais do que desenvolver uma plataforma, buscamos criar um espaço de acolhimento, informação e esperança — e esse foi, sem dúvida, o nosso maior ganho.
+
 ## WireFrame 
 
 <img width="747" height="397" alt="image" src="https://github.com/user-attachments/assets/01ff4d7d-0804-4029-995a-90b5ac174f02" /> 
