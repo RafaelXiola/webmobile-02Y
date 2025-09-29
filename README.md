@@ -6,7 +6,7 @@ PROJETO DE WEBMOBILE TURMA 02Y 2025
 * Andre Cintra - RA: 10738062
 * Rafela Zaghi - RA: 10737950
 
-# NOME EM DESENVOLVIMENTO
+# BreakCircle - Quebra de Vicios 
 
 ## Ideação do Projeto Extencionista
 
