@@ -66,17 +66,54 @@ _Secção de Perguntas Frequentes na HomePage, com ela é possivel realizar uma 
 
 _Secção de Footer, para navegação simplificada e para realizar um contato com os nossos canais de atendimento._
 
+## Tutorial do projeto * BreakCircle - Quebra de vícios *
 
+### Estrutura de arquivos
+- index.html
+- script.js
+- styles.css
 
+### Explicação do código HTML - index.html
 
+<img width="1322" height="195" alt="image" src="https://github.com/user-attachments/assets/0746c087-a1db-49e5-9eaa-286f8499d1e8" />
 
+Inicialização da página, invisível ao usuário exceto pelo título. Contém os links para os arquivos CSS e JavaScript externos, além de importar as fontes usadas do Google Fonts. 
 
+<img width="484" height="322" alt="image" src="https://github.com/user-attachments/assets/a7cdb622-5a12-45ef-ad8d-0b86740bfb5d" />
 
+Área superior fixa, contém logotipo e barra de navegação interna nav. Além do uso de anchors para navegar a própria página, há outro botão para adição de funcionalidade.
 
+<img width="685" height="318" alt="image" src="https://github.com/user-attachments/assets/0396c9fa-2d86-46c6-8fef-db56852101bc" />
 
+Apresentação incial da página, delimitada por uma section. Conta com o slogan da ONG e imagem ilustrativa divididas em div's.
 
+<img width="1501" height="549" alt="image" src="https://github.com/user-attachments/assets/e65420d5-4211-431d-ba97-d60905bd6b00" />
 
+Section dedicada a depoimentos reais de pacientes da ONG. Uso de div para quebrar a section em blocos, permitindo ajustar o posicionamento e espaçamento do conteúdo(imagem e blocos com depoimentos individuis) com flexbox no CSS. O CSS tambem foi usado para mudar levemente a background-color, melhorando a acessibilidade visual do site.
 
+<img width="1437" height="516" alt="image" src="https://github.com/user-attachments/assets/92a26c1e-9fa7-4d94-8708-37a6539eabaf" />
+
+Section que traz estatísticas em relação à ONG, além de uma imagem ilustrativa. A divisão da section é feita através do uso de div e class - para organização com flexbox no CSS e estilização. 
+
+<img width="614" height="487" alt="image" src="https://github.com/user-attachments/assets/bfd2fb23-4b08-4e30-a0e6-1fcab4f4eb48" />
+
+Na seção de parceiros, a section foi quebrada em dois blocos principais: um bloco geral(class "container") que contém o título da seção e um bloco menor("grade-parceiro", dentro do "container") que encapsula os blocos individuais dedicados a cada parceiro.
+
+<img width="1245" height="690" alt="image" src="https://github.com/user-attachments/assets/c345c4a3-b3d2-4558-9c5b-c8fc171afa78" />
+
+Section decomposta por múltiplas div em grid, na qual cada bloco(div) individual contém uma imagem, descrição e CTA.
+
+<img width="1320" height="561" alt="image" src="https://github.com/user-attachments/assets/3b0313dc-3725-43e9-899c-aaeb737533b1" />
+
+A seção de perguntas frequentes apresenta um layout similar à seção de relatos reais, com o uso do flexbox e distribuição proporcinal. Apresenta blocos para imagem e caixas de texto individuais, mas se difere no uso de JavaScript para expandir cada div individual, escondendo o a descrição do bloco.
+
+<img width="903" height="307" alt="image" src="https://github.com/user-attachments/assets/294683d8-9577-438c-b83d-d28af77cb92e" />
+
+A seção CTA, delimitada de acordo com a semântica do HTML5 section assim como todas as outras as seções, se difere das demais com uma background-color pesada. Espaçado igualmente com o uso de flexbox, a div de class "conteudo-cta" engloba um texto descritivo(h2, h3 e p) que indica um button para contato.
+
+<img width="465" height="895" alt="image" src="https://github.com/user-attachments/assets/3624e813-f4a8-4c8a-8eea-6ceafb732fb5" />
+
+O rodapé, footer, é fixado com uso de CSS no final da página, e é dividido por blocos - que individualmente fluem em formato de colunas - onde se encontram diversos links, bem como as redes sociais da ONG.
 
 
 
