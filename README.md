@@ -117,6 +117,78 @@ O rodapé, footer, é fixado com uso de CSS no final da página, e é dividido p
 
 ### Explicação do código JavaScript
 
+<img width="570" height="21" alt="image" src="https://github.com/user-attachments/assets/4494032b-6628-45fa-bbce-62066953116a" />
 
+É a inicialização do código, espera o carregamento do DOM para permitir que o resto do código seja rodado.
 
+<img width="643" height="277" alt="image" src="https://github.com/user-attachments/assets/2debbec2-bce1-4c28-816c-82608fe0143a" />
 
+Seleciona todos os elementos com atribuição class .link-navegacao, ou seja a nav inteira do cabeçalho, e aplica, com o .transform, um tempo("efeito") de rolagem até a marcação selecionada.
+
+<img width="478" height="609" alt="image" src="https://github.com/user-attachments/assets/0a1e4f19-9c2d-4017-8136-c55e8fc02f69" />
+
+Novamente através do document.querySelectorAll, o js seleciona todos os selectors do CSS endereçados à class .item-faq. Para cada um, seleciona as sub-classes .pergunta-faq, .resposta-faq e .icone-faq. A pergunta é interativa, e ao ser clicada altera o display do bloco exibindo uma resposta para tal.
+
+<img width="610" height="746" alt="image" src="https://github.com/user-attachments/assets/a3da5699-a40f-4078-8522-6f92d68a02d6" />
+
+Novamente com o document.querySelectorAll, percorre cada class .numero-estatistica (na seção de estatísticas)  anima os valores - marcados por 'K' e '%' - usndo setInterval para serem alterados até chegar ao valor final.
+
+<img width="280" height="82" alt="image" src="https://github.com/user-attachments/assets/9040d00f-8b86-4669-aa05-30a71f4b2779" />
+
+Objeto que armazena paramêtros para a classe IntersectionObserver. 
+
+<img width="531" height="246" alt="image" src="https://github.com/user-attachments/assets/0a15528c-afa4-4ad8-988f-c7c44f56f67e" />
+
+As estatísticas são ocultadas com opacity  translateY, o que é julgado pelo if ao serem enquadradas no viewport: quando aparecem na tela, ficam visíveis. São novamente verificadas com outro if, que identifica a class 'estatisticas' e anima os contadorespara tais elementos.
+
+<img width="1042" height="132" alt="image" src="https://github.com/user-attachments/assets/2f69a9eb-bcdc-4a9a-ae33-bb0299f242f9" />
+
+A variável elementosAnimados seleciona os elementos com class .item-depoimento, .cartao-servico, .item-estatistica, .logo-parceiro e .item-faq, e os inicializa para que sejam alterados de acordo com a classe IntersectionObserver.
+
+<img width="517" height="79" alt="image" src="https://github.com/user-attachments/assets/8b0a4011-6ae4-4811-b929-64f3aef9aee4" />
+
+Faz uma observação individual da class .estatisticas, para que os contadores sejam ativados ao entrar em viewport.
+
+<img width="632" height="139" alt="image" src="https://github.com/user-attachments/assets/5c9a5812-cc90-4fd1-bafa-5c83dde0f42e" />
+
+Cria um efeito parallax ao mover a class .imagem-principal de maneira proporcional à rolagem da página, obtida com window.pageYOffset, dando um efeito de profundidade. 
+
+<img width="621" height="343" alt="image" src="https://github.com/user-attachments/assets/25f413ec-14d0-4625-9924-700e1608333f" />
+
+Seleciona as classes de botão e para cada uma adiciona estilos para hover e click com style inline. 
+
+<img width="541" height="309" alt="image" src="https://github.com/user-attachments/assets/1cfe15e3-f661-41aa-86c3-af220db8cdf5" />
+
+Variável constante que serve como uma 'máquina de escrever' para o título principal da página, que é buscado através de sua class e com .innerHTML tem seu conteúdo apagado e reescrito.
+
+<img width="553" height="234" alt="image" src="https://github.com/user-attachments/assets/cb7bd511-a809-4f40-b23d-1fff67d21f65" />
+
+Intercepa os anchor links da nav e aplica uma rolagem personalizada até o elemento alvo com scrollIntoView.
+
+<img width="526" height="193" alt="image" src="https://github.com/user-attachments/assets/faf322cb-8eb4-479c-881b-b48b4a36fe70" />
+
+Altera o background e backdropFilter da class .cabecalho quando a rolagem da página ultrapassa 100px. 
+
+<img width="598" height="122" alt="image" src="https://github.com/user-attachments/assets/fe802031-319a-46ca-b9dd-468badae6bbe" />
+
+Cria um efeito sequencial para cada class .imagem-placeholder com a aplicação de animationDelay. 
+
+<img width="538" height="234" alt="image" src="https://github.com/user-attachments/assets/898fef57-84dc-4b08-bb34-244435c11eb7" />
+
+Cria efeito de hover com a maipulação da sombra dos cartões com inline style. 
+
+<img width="575" height="353" alt="image" src="https://github.com/user-attachments/assets/d55a1d7c-c014-4d73-9698-380e327c82fc" />
+
+Cria um span que fica posicionado no ponto do clique relativo ao botão. Adiciona também a class 'onda'. Dá um efeito ripple ao botão.
+
+<img width="377" height="89" alt="image" src="https://github.com/user-attachments/assets/0016581c-987c-49e1-8264-5d6615678a0e" />
+
+Adiciona um evento listener click em todos os botões previamente selecionados e chama a função criarOnda para cada clique, aplicando o efeito ripple. 
+
+<img width="441" height="26" alt="image" src="https://github.com/user-attachments/assets/de7cb7dd-09f5-4549-812f-28de702dc2f8" />
+
+Imprime uma mensagem no terminal confirmando o carregamento bem sucedido da página. 
+
+<img width="395" height="620" alt="image" src="https://github.com/user-attachments/assets/8080c584-f7c0-4c4e-9db1-0977ca4bcee6" />
+
+Com a criação da variável cssOnda, define o CSS necessário para a animação da class .onda, inserindo no head do html como parte do style.
