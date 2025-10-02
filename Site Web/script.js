@@ -125,7 +125,7 @@ document.addEventListener('DOMContentLoaded', function() {
             imagemPrincipal.style.transform = `translateY(${rolagemAtual * 0.1}px)`;
         }
     });
-s
+
     const botoes = document.querySelectorAll('.botao-primario, .botao-secundario');
     botoes.forEach(botao => {
         botao.addEventListener('mouseenter', function() {
