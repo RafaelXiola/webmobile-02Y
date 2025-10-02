@@ -115,6 +115,8 @@ A seção CTA, delimitada de acordo com a semântica do HTML5 section assim como
 
 O rodapé, footer, é fixado com uso de CSS no final da página, e é dividido por blocos - que individualmente fluem em formato de colunas - onde se encontram diversos links, bem como as redes sociais da ONG.
 
+### Explicação do código JavaScript
+
 
 
 
