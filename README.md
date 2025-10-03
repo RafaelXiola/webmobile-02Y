@@ -192,3 +192,10 @@ Imprime uma mensagem no terminal confirmando o carregamento bem sucedido da pág
 <img width="395" height="620" alt="image" src="https://github.com/user-attachments/assets/8080c584-f7c0-4c4e-9db1-0977ca4bcee6" />
 
 Com a criação da variável cssOnda, define o CSS necessário para a animação da class .onda, inserindo no head do html como parte do style.
+
+
+###Explicacao do código CSS 
+
+<img widht= "500" height= "100" alt= ïmage" src="https://github.com/user-attachments/assets/Captura de Tela 2025-10-02 às 20.32.39"/>
+
+
