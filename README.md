@@ -196,6 +196,6 @@ Com a criação da variável cssOnda, define o CSS necessário para a animação
 
 ###Explicacao do código CSS 
 
-<img src="Captura de Tela 2025-10-02 às 20.31.55" alt="Gráfico de desempenho" width="500" />
+<img src="Captura de Tela 2025-10-02 às 20.31.55" alt="Captura de Tela 2025-10-02 às 20.31.55" width="500" />
 
 
