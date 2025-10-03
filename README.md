@@ -195,7 +195,601 @@ Com a criação da variável cssOnda, define o CSS necessário para a animação
 
 
 ###Explicacao do código CSS 
+''' css
 
+*{
+margem: 0;
+preenchimento: 0;
+dimensionamento de caixa:caixa de borda;
+corpos
+família de fontes: 'Aberto Sans'
+,sem serita;
+altura da linha: 1.6;
+cor: #333;
+cor de fundo: #ffffff;
+}
+recipientel
+largura máxima: 1200px;
+margem: Oauto;
+preenchimento: 0 20px;
+/* Tipografia */ h1, h2, h3, h4, h5, h61
+família de fontes: 'Poppins'
+, sem serifa;
+espessura da fonte: 600;
+}
+'''
+	Um reset básico para remover estilos padrões.A fonte base do site (Open Sans).
+Um container centralizado com largura máxima. Um estilo diferente para títulos (Poppins em negrito).
+
+
+''' /* Cabeçalho */ , cabecalho‹
+fundo: #ffffff;
+preenchimento: 20px 0;
+caixa-sombra: 0 2px 10px RGBA(0, 0, 0, 0,1);
+posição: fixo;
+principal: 0;
+esquerda: 0;
+certo: 0;
+índice z: 1000;
+transição: todos0,3sfacilidade;
+}
+, cabecalho.recipiente{
+mostrar: flexível;
+justificar-conteúdo: espaço-entre;
+alinhar-itens:centro;
+}
+ícone-logotipo{
+largura: 40px;
+altura: 40px;
+fundo: #000;
+raio da borda: 50%; posição: relativo;
+transição: transformar0,3sfacilidade;
+}
+'''
+
+Esse CSS cria um cabeçalho fixo no topo da pagina, é um cabeçalho fixo, limpo e moderno, com logo redondo e espaço para o menu.
+
+
+'''
+ícone-logotipo:pairar{
+transformar: escala (1.1);
+ícone-logotipo: :antes{
+contente: '';
+posição: absoluto;
+principal: 50%;
+esquerda: 50%;
+transformar: traduzir (-50%, -50%);
+largura: 20px;
+altura: 20px;
+fundo: #fff;
+raio da borda: 50%;
+-navegação{
+mostrar: flexível;
+alinhar-itens: centro;
+brecha: 30px;
+}
+. link-navegação{
+decoração de texto: nenhum;
+cor: #333;
+espessura da fonte: 500; transição: cor0,3sfacilidade;
+posição: relativo;
+}
+'''
+Deixa o cabeçalho com logo interativo e menu limpo e moderno.
+
+
+'''
+{
+link-navegação: pairar{
+cor: #007bff;
+}
+.link-navegação: :depois{
+contente: '';
+posição: absoluto;
+fundo: -5px;
+esquerda: 0;
+largura: 0;
+altura: 2px;
+fundo: #007bff;
+transição: largura, 3sfacilidade;
+
+{
+link-navegação: pairar::depois{
+largura: 100%;
+}
+
+Ao passar o mouse, o link muda para azul.
+Surge uma linha azul animada embaixo do link (efeito sublinhado moderno).
+
+'''
+/* Botões */ .botao-primario‹
+fundo: #000;
+cor: #fff;
+fronteira: nenhum;
+preenchimento: 12px 24px;
+raio da borda: 6px;
+espessura da fonte: 600;
+cursor: ponteiro;
+transição: todoso,3sfacilidade;
+família de fontes: 'Aberto Sans'
+,sem serifa;
+}
+botao-primario:pairar{
+fundo: #333;
+transformar: traduzirY(-2px);
+caixa-sombra: 0 4px 15px RGBA(0, 0, 0, 0,2);
+}
+,botao-secundario{
+fundo: #000;
+cor: #fff;
+fronteira: nenhum;
+preenchimento: 15px 30px;
+raio da borda: 6px;
+espessura da fonte: 600;
+cursor: ponteiro;
+transição: todos®,3sfacilidade;
+família de fontes: 'Aberto Sans'
+,sem serifa;
+} '''
+
+Define botões modernos, com efeito de animação e sombra ao passar o mouse.
+
+'''
+•botao-secundario:pairart{
+fundo: #333;
+transformar: traduzirY (-2px);
+caixa-sombra: 0 6px 20px RGBA(0, 0, 0, 0,2);
+}
+•botao-linki{
+fundo: nenhum;
+fronteira: nenhum;
+cor: #007bff;
+decoração de texto: sublinhado;
+cursor: ponteiro;
+espessura da fonte: 500; transição: cor0,3sfacilidade;
+família de fontes: 'Aberto Sans', sem serifa;
+}
+,botao-link:pairar{
+cor: #0056b3;
+/* Seção Principal */
+.secao-principal{
+preenchimento: 120px 0 80px;
+fundo: #fffff
+'''
+Esse código cria três estilos — botão secundário com animação, botão estilo link e uma seção principal limpa e espaçosa.
+
+'''
+, conteudo-principal{
+mostrar:grade;
+colunas de modelo de grade: 1fr 1fr;
+brecha: 60px;
+alinhar-itens: centro;
+}
+,título-principal{
+tamanho da fonte: 48px; espessura da fonte: 700;
+cor: #000;
+margem inferior: 20px;
+altura da linha: 1.2;
+}
+,subtítulo-principal{
+tamanho da fonte: 24px;
+cor: #666;
+margem inferior: 10px;
+espessura da fonte: 500;
+}
+-descrição-principal{
+tamanho da fonte: 18px;
+cor: #666;
+margem inferior: 30px;
+}
+'''
+Esse código cria um container em grid de duas colunas, centraliza os itens e define a hierarquia dos textos: título grande e negrito, subtítulo menor e semi-negrito, e descrição ainda menor, todos com espaçamentos claros entre eles.
+
+'''
+,espaço reservado para imagem
+largura: 100%;
+altura: 300px;
+fundo: #f0f0f0;
+raio da borda: 8px; posição: relativo;
+transbordamento: escondido;
+transição: transformar®, 3sfacilidade;
+.espaço reservado para imagem:pairar{
+transformar: escala (1.02);
+,espaço reservado para imagem:: antes{
+contente: "';
+posição: absoluto;
+principal: 20px;
+esquerda: 20px;
+certo: 20px; fundo: 20px;
+fronteira: 2pxtracejado#ccc;
+'''
+Resumidamente, esse código cria um bloco para imagem que ocupa toda a largura, tem altura fixa de 300px, cantos arredondados e um efeito de zoom leve quando o mouse passa por cima. Além disso, um pseudo-elemento adiciona uma borda tracejada interna, criando um destaque decorativo sobre a imagem.
+
+'''
+,espaço reservado para imagem:: depois{
+contente: 'x';
+posição: absoluto;
+principal: 50%;
+esquerda: 50%;
+transformar: traduzir (-50%, -50%);
+tamanho da fonte: 48px;
+cor: #Cc;
+.espaço reservado para imagem.grande{
+altura: 400px;
+/* Seção Depoimentos */
+•depoimentos{
+preenchimento: 80px 0;
+fundo: #f8f9fa;
+título-seção{
+tamanho da fonte: 36px;
+alinhamento de texto: centro;
+margem inferior: 20px;
+cor: #000;
+'''
+Ele cria um bloco de imagem com um asterisco central decorativo, que aumenta de altura se a classe grande for adicionada. A seção de depoimentos tem fundo cinza claro, espaçamento interno grande e um título centralizado em tamanho grande e cor preta.
+
+'''
+,descrição-seção‹
+alinhamento de texto: centro;
+largura máxima: 800px;
+margem: Oauto60px;
+cor: #666;
+tamanho da fonte: 16px;
+}
+, conteudo-depoimentos{
+mostrar:grade;
+colunas de modelo de grade: 1fr 1fr;
+brecha: 60px;
+alinhar-itens: centro;
+.lista-depoimentos‹
+mostrar: flexível;
+direção flexível: coluna;
+brecha: 20px;
+'''
+A descrição da seção fica centralizada com largura limitada e texto cinza. Os depoimentos são organizados em duas colunas, e cada lista de depoimentos é exibida em coluna única com espaçamento entre os itens, criando um layout limpo e organizado.
+
+'''
+.item-depoimento{
+mostrar: flexível;
+alinhar-itens:partida flexível;
+brecha: 15px;
+preenchimento: 20px;
+fundo: #fff;
+raio da borda: 8px;
+caixa-sombra: 0 2px 10px RGBA(0, 0, 0, 0,05);
+transição: todos®, 3sfacilidade;
+.item-depoimento:pairar{
+transformar: traduzirY(-5px);
+caixa-sombra: 0 8px 25px RGBA(0, 0, 0, 0,1);
+ícone-depoimento{
+largura: 24px;
+altura: 24px;
+fundo: #28a745;
+cor: #fff;
+raio da borda: 50%; mostrar: flexível;
+alinhar-itens: centro;
+justificar-conteúdo: centro;
+tamanho da fonte: 14px;
+espessura da fonte:audacioso;
+flexionar-encolher: 0;
+'''
+Cada item de depoimento é um bloco branco com sombra leve, espaçamento interno e leve animação ao passar o mouse, elevando e aumentando a sombra. O ícone de depoimento é um círculo verde com texto branco centralizado, tamanho fixo e peso de fonte negrito, criando destaque visual para cada item.
+
+'''
+.texto-depoimento p{
+cor: #666;
+tamanho da fonte: 14px;
+/* Seção Estatísticas */ estatísticast
+preenchimento: 80px 0;
+fundo: #ffffff;
+}
+.título-estatisticas{
+tamanho da fonte: 36px;
+alinhamento de texto: centro;
+margem inferior: 20px;
+cor: #000;
+largura máxima: 800px;
+margem esquerda: auto; margem direita:auto;
+}
+,descrição-estatística{
+alinhamento de texto: centro;
+largura máxima: 600px;
+margem: Oauto60px;
+cor: #666;
+tamanho da fonte: 16px;
+'''
+os textos dos depoimentos ficam pequenos e cinza, enquanto a seção de estatísticas tem fundo branco, bastante espaçamento vertical e títulos centralizados com descrição abaixo, criando hierarquia clara e layout limpo.
+
+'''
+•notas-estatisticas{ mostrar:grade;
+colunas de modelo de grade: repita(3, 1fr);
+brecha: 40px;
+margem inferior: 60px;
+,item-estatistica{
+alinhamento de texto: centro;
+preenchimento: 20px;
+transição: transformar®, 3sfacilidade;
+.item-estatistica:pairar{
+transformar: traduziry (-10px);
+•numero-estatistica‹
+tamanho da fonte: 48px; espessura da fonte: 700;
+cor: #000;
+margem inferior: 10px;
+família de fontes: 'Poppins'
+,sem serifa;
+.rotulo-estatistica‹
+tamanho da fonte: 16px;
+cor: #666;
+espessura da fonte: 500;
+'''
+essa seção exibe três estatísticas lado a lado, cada uma centralizada com número grande e rótulo menor. Ao passar o mouse, cada item sobe levemente, dando destaque visual ao conteúdo.
+
+'''
+/* Seção Parceiros */
+•parceiros{
+preenchimento: 80px 0;
+fundo: #f8f9fa;
+}
+•grau-parceiros{ mostrar:grade;
+colunas de modelo de grade: repita(4, 1fr);
+brecha: 40px;
+margem superior: 40px;
+}
+•logotipo-parceiro‹
+mostrar: flexível;
+alinhar-itens: centro;
+justificar-conteúdo: centro;
+preenchimento: 30px;
+fundo: #fff;
+raio da borda: 8px;
+caixa-sombra: 0 2px 10px RGBA(0, 0, 0, 0,05);
+transição: todos®, 3sfacilidade;
+}
+•logotipo-parceiro:pairar‹
+transformar: traduzirY(-5px);
+caixa-sombra: 0 8px 25px RGBA(0, 0, 0, 0,1);
+'''
+a seção de parceiros tem fundo cinza claro e espaçamento vertical, os logotipos são exibidos em grid de quatro colunas, cada logo dentro de um bloco branco com sombra e cantos arredondados, e ao passar o mouse cada logo sobe levemente com sombra mais forte, criando um efeito interativo elegante.
+
+'''
+•logotipo de espaço reservado‹
+cor: #999;
+tamanho da fonte: 14px; espessura da fonte: 500;
+}
+/* Seção Serviços */
+.serviços{
+preenchimento: 80px 0;
+fundo: #ffffff;
+}
+•grau-serviços{
+mostrar: grade;
+colunas de modelo de grade: repita(3, 1fr);
+brecha: 40px;
+margem superior: 40px;
+}
+,cartao-servico{
+fundo: #fff;
+raio da borda: 12px;
+transbordamento: escondido;
+caixa-sombra: 0 4px 20px RGBA(0, 0, 0, 0,1);
+transição: todos0,3sfacilidade;
+'''
+o logo de espaço reservado é pequeno e cinza, enquanto a seção de serviços tem fundo branco com espaçamento vertical, organiza os cartões de serviço em três colunas e cada cartão tem cantos arredondados, sombra e transição suave, criando destaque visual e efeito moderno.
+
+'''
+,cartao-servico:pairar‹
+transformar: traduzirY(-10px);
+caixa-sombra: 0 12px 40px RGBA(0, 0, 0, 0,15);
+. imagem-serviço{
+altura: 200px;
+}
+,título-serviço{
+tamanho da fonte: 18px; margem: 20px 20px 10px;
+cor: #000;
+}
+-descrição-serviço{
+cor: #666;
+margem: 0 20px 20px;
+tamanho da fonte: 14px;
+.cartao-servico.botao-link{
+margem: 0 20px 20px; mostrar: bloco embutido;
+'''
+os cartões de serviço têm efeito de hover que os eleva e aumenta a sombra, as imagens dentro têm altura fixa, os títulos e descrições têm margens e cores definidas para hierarquia visual, e os botões dentro do cartão são exibidos como bloco em linha com margens, mantendo organização e espaçamento consistentes.
+
+'''
+Seção FAQ */
+-perguntas-frequentes‹
+preenchimento: 80px 0;
+fundo: #f8f9fa;
+, conteudo-faq mostrar:grade;
+colunas de modelo de grade: 1fr 1fr;
+brecha: 60px;
+alinhar-itens:partida flexível;
+• lista-faq{
+mostrar: flexível;
+direção flexível: coluna;
+brecha: 20px;
+}
+- Item-faq
+fundo: #fff;
+raio da borda: 8px;
+transbordamento: escondido;
+caixa-sombra: 0 2px 10px RGBA(0, 0, 0, 0,05);
+transição: todos0,3sfacilidade;
+
+'''
+a seção FAQ tem fundo cinza claro e espaçamento vertical. O conteúdo é organizado em duas colunas, cada lista de perguntas fica em coluna única com espaçamento, e cada item de FAQ é um bloco branco com sombra e cantos arredondados, criando um layout limpo e destacado para as perguntas.
+
+'''
+.item-faq:pairar‹
+caixa-sombra: 0 8px 25px RGBA(0, 0, 0, 0,1);
+-perguntas-faq
+mostrar: flexível;
+justificar-conteúdo: espaço-entre;
+alinhar-itens: centro;
+preenchimento: 20px;
+cursor: ponteiro;
+espessura da fonte: 600;
+cor: #000;
+transição: cor de fundo0, 3sfacilidade;
+-perguntas-faq:pairar{
+cor de fundo: #f8f9fa;
+• ícone-faq{
+tamanho da fonte: 20px;
+espessura da fonte:audacioso;
+cor: #666;
+transição: transformaro,3sfacilidade;
+'''
+ao passar o mouse sobre um item de FAQ, a sombra do bloco aumenta, o fundo da pergunta muda de cor, e o ícone dentro da pergunta pode ter animação suave de transformação, tornando a interação mais visual e agradável.
+
+'''
+resposta-faqt
+preenchimento: 0 20px 20px;
+cor: #666;
+tamanho da fonte: 14px; altura da linha: 1.6;
+}
+/* Seção CTA */
+• chamada-açao‹
+preenchimento: 60px 0;
+fundo: #333;
+cor: #fff;
+}
+, conteudo-cta{
+mostrar: flexível;
+justificar-conteúdo: espaço-entre;
+alinhar-itens: centro;
+}
+.título-cta{
+tamanho da fonte: 24px; margem inferior: 10px;
+.subtítulo-cta{
+tamanho da fonte: 20px; margem inferior: 10px;
+cor: #CCC;
+'''
+as respostas da FAQ são apresentadas com texto cinza, pequeno e bem espaçado. A seção CTA tem fundo escuro e texto branco, com conteúdo distribuído em linha usando flexbox, títulos grandes e subtítulos em cinza claro, criando destaque para a chamada à ação.
+
+'''
+-descrição-cta‹
+tamanho da fonte: 16px;
+}
+/* Rodapé */
+• rodape{
+fundo: #000;
+cor: #fff;
+preenchimento: 60px 0 30px;
+, conteudo-rodape‹ mostrar:grade;
+colunas de modelo de grade: autolfr;
+brecha: 60px;
+alinhar-itens:partida flexível;
+-links-rodape{
+mostrar:grade;
+colunas de modelo de grade: repita(4, 1fr);
+brecha: 40px;
+}
+,coluna-rodape h4{
+margem inferior: 20px;
+tamanho da fonte: 16px;
+cor: #fff;
+'''
+O código especifica que a descrição da CTA deve apresentar uma tipografia de 16px, garantindo legibilidade adequada. O rodapé é configurado com fundo preto, texto branco e espaçamento vertical consistente, promovendo clareza visual. O conteúdo interno do rodapé utiliza um modelo de grid, distribuindo seções e links em colunas, enquanto os títulos das colunas são apresentados com fonte de 16px e margem inferior, assegurando uma organização estruturada e esteticamente equilibrada.
+
+'''
+coluna-rodape um{
+mostrar: bloquear;
+cor: #CCC;
+decoração de texto: nenhum;
+margem inferior: 10px;
+tamanho da fonte: 14px; transição:cor0, 3sfacilidade;
+, coluna-rodape um:pairar‹
+cor: #ff†;
+ícones-sociais{
+mostrar: flexível;
+brecha: 15px;
+ícone-social{
+largura: 32px;
+altura: 32px;
+fundo: #333;
+raio da borda: 50%;
+transição: todoso,3sfacilidade;
+cursor:ponteiro;
+'''
+os links do rodapé são exibidos em bloco, cinza claro, com transição de cor ao passar o mouse. Os ícones sociais são dispostos em linha com espaçamento, cada ícone é um círculo escuro de 32px que muda suavemente ao interagir, garantindo clareza visual e interatividade.
+
+'''
+ícone-social:pairar{
+fundo: #555;
+transformar: traduzirY(-2px);
+/* Responsabilidade */ @mídia (largura máxima: 768px) {
+-navegação{
+mostrar: nenhum;
+. conteudo-principal‹
+colunas de modelo de grade: 1fr;
+brecha: 40px;
+alinhamento de texto: centro;
+｝
+,título-principal‹
+tamanho da fonte: 36px;
+}
+, conteudo-depoimentos{
+colunas de modelo de grade: 1fr;
+brecha: 40px;
+}
+.notas-estatisticas{
+colunas de modelo de grade: 1fr;
+brecha: 30px;
+'''
+
+os ícones sociais mudam de cor e sobem levemente ao passar o mouse, aumentando a interatividade. As regras responsivas reorganizam o layout em telas menores, transformando grids de múltiplas colunas em coluna única, centralizando o conteúdo e ajustando tamanhos de fonte, garantindo que o site seja legível e funcional em dispositivos móveis.
+
+'''
+grau-parceirost
+colunas de modelo de grade: repita(2, 1fr);
+brecha: 20px;
+}
+•grau-serviços{
+colunas de modelo de grade: 1fr;
+brecha: 30px;
+}
+, conteudo-faq{
+colunas de modelo de grade: 1fr;
+brecha: 40px;
+. conteudo-cta‹
+direção flexível: coluna;
+brecha: 30px;
+alinhamento de texto: centro;
+}
+, conteudo-rodape{
+colunas de modelo de grade: 1fr;
+brecha: 40px;
+}
+.links-rodape{
+colunas de modelo de grade: repita(2, 1fr);
+brecha: 30px;
+'''
+o código ajusta o layout em grids e flexbox para que, em telas menores, as seções como parceiros, serviços, FAQ, CTA e rodapé sejam reorganizadas em colunas únicas ou reduzidas, mantendo espaçamento adequado e centralização do conteúdo para melhor legibilidade e responsividade.
+
+'''
+@mídia(largura máxima: 480px) {
+.recipiente‹
+preenchimento: 0 15px;
+｝
+,secao-principal{
+preenchimento: 100px 0 60px;
+｝
+título-principal{
+tamanho da fonte: 28px;
+}
+-título-seção{
+tamanho da fonte: 28px;
+｝
+•título-estatisticast
+tamanho da fonte: 28px;
+｝
+,numero-estatistica{
+tamanho da fonte: 36px;
+｝
+•grau-parceiros{
+colunas de modelo de grade: 1fr;
+'''
 
 
 
