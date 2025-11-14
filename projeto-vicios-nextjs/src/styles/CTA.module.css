@@ -1,0 +1,63 @@
+.chamadaAcao {
+    padding: 60px 0;
+    background: #333;
+    color: #fff;
+}
+
+.containerCTA {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.conteudoCta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textoCta {
+    flex: 1;
+}
+
+.tituloCta {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.subtituloCta {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #ccc;
+}
+
+.descricaoCta {
+    color: #ccc;
+    font-size: 16px;
+}
+
+.botaoPrimario {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.botaoPrimario:hover {
+    background: #555;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    .conteudoCta {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "apostas",
+    "nome": "Vício em Apostas",
+    "descricao": "Acompanhamento psicológico e estratégias de controle para quem quer se libertar do vício em jogos de azar.",
+    "descricaoCompleta": "O vício em apostas é uma dependência comportamental que afeta milhões de pessoas em todo o mundo. Nosso programa oferece terapia individual e grupal, estratégias de controle de impulsos e suporte para recuperação financeira.",
+    "sintomas": [
+      "Perda de controle sobre as apostas",
+      "Necessidade de apostar quantias cada vez maiores",
+      "Mentiras sobre o tempo e dinheiro gasto",
+      "Impacto negativo nas relações pessoais e profissionais",
+      "Tentativas frustradas de parar"
+    ],
+    "tratamentos": [
+      "Terapia Cognitivo-Comportamental (TCC)",
+      "Grupos de apoio anônimos",
+      "Aconselhamento financeiro",
+      "Terapia familiar",
+      "Medicação quando necessário"
+    ],
+    "imagem": "/vicios/apostas.jpg"
+  },
+  {
+    "id": "alcool",
+    "nome": "Vício em Álcool",
+    "descricao": "Programa de reabilitação para alcoólatras, com suporte médico, terapêutico e acompanhamento contínuo.",
+    "descricaoCompleta": "O alcoolismo é uma doença crônica que afeta o corpo e a mente. Nosso programa integrado oferece desintoxicação segura, terapia psicológica e suporte médico para ajudar na recuperação duradoura.",
+    "sintomas": [
+      "Consumo excessivo e frequente de álcool",
+      "Tolerância aumentada",
+      "Sintomas de abstinência",
+      "Negligência de responsabilidades",
+      "Continuação apesar de consequências negativas"
+    ],
+    "tratamentos": [
+      "Desintoxicação médica supervisionada",
+      "Terapia Cognitivo-Comportamental",
+      "Medicações para reduzir o desejo",
+      "Grupos de apoio (AA)",
+      "Terapia familiar e social"
+    ],
+    "imagem": "/vicios/alcool.jpg"
+  },
+  {
+    "id": "drogas",
+    "nome": "Vício em Drogas",
+    "descricao": "Tratamento especializado para dependência de drogas, incluindo terapia individual, grupal e suporte familiar.",
+    "descricaoCompleta": "A dependência de drogas é uma condição complexa que requer abordagem multidisciplinar. Oferecemos programas personalizados de desintoxicação, reabilitação e reinserção social.",
+    "sintomas": [
+      "Tolerância e dependência física",
+      "Sintomas de abstinência severos",
+      "Perda de interesse em atividades anteriores",
+      "Problemas legais e financeiros",
+      "Relacionamentos prejudicados"
+    ],
+    "tratamentos": [
+      "Desintoxicação em ambiente controlado",
+      "Terapia comportamental intensiva",
+      "Medicações de substituição",
+      "Reabilitação residencial",
+      "Programas de reinserção social"
+    ],
+    "imagem": "/vicios/drogas.jpg"
+  },
+  {
+    "id": "redes-sociais",
+    "nome": "Vício em Redes Sociais",
+    "descricao": "Estratégias de gerenciamento de tempo e suporte psicológico para reduzir o impacto das redes sociais no dia a dia.",
+    "descricaoCompleta": "O uso excessivo de redes sociais afeta a saúde mental, sono e produtividade. Nosso programa oferece técnicas de controle de tempo, conscientização digital e terapia para dependência comportamental.",
+    "sintomas": [
+      "Uso compulsivo e incontrolável",
+      "Ansiedade quando separado do dispositivo",
+      "Impacto no sono e na concentração",
+      "Negligência de relacionamentos reais",
+      "Impacto na autoestima e saúde mental"
+    ],
+    "tratamentos": [
+      "Terapia Cognitivo-Comportamental",
+      "Técnicas de mindfulness",
+      "Planejamento de tempo digital",
+      "Aconselhamento sobre saúde mental",
+      "Suporte familiar e educação digital"
+    ],
+    "imagem": "/vicios/redes-sociais.jpg"
+  },
+  {
+    "id": "comida",
+    "nome": "Vício em Comida",
+    "descricao": "Acompanhamento nutricional e psicológico para quem enfrenta compulsão alimentar e quer retomar hábitos saudáveis.",
+    "descricaoCompleta": "A compulsão alimentar é um transtorno que combina aspectos físicos, emocionais e comportamentais. Oferecemos abordagem integrada com nutricionistas, psicólogos e médicos.",
+    "sintomas": [
+      "Episódios de comer compulsivo",
+      "Sensação de perda de controle",
+      "Culpa e vergonha após comer",
+      "Impacto na saúde física e emocional",
+      "Ciclos de restrição e compulsão"
+    ],
+    "tratamentos": [
+      "Terapia Cognitivo-Comportamental",
+      "Orientação nutricional personalizada",
+      "Acompanhamento médico",
+      "Grupos de apoio",
+      "Terapia emocional e de autoimagem"
+    ],
+    "imagem": "/vicios/comida.jpg"
+  }
+]

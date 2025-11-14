@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "nome": "João",
+    "idade": 32,
+    "vicio": "Álcool",
+    "texto": "Eu achava que controlar meu vício em álcool era impossível. Com apoio e terapia, estou sóbrio há 9 meses e reconectando com minha família."
+  },
+  {
+    "id": 2,
+    "nome": "Marina",
+    "idade": 27,
+    "vicio": "Jogos",
+    "texto": "O vício em jogos me deixou endividado e isolado. Hoje participo de grupos de apoio e consegui retomar minha vida financeira e social."
+  },
+  {
+    "id": 3,
+    "nome": "Lucas",
+    "idade": 21,
+    "vicio": "Redes Sociais",
+    "texto": "Meu uso excessivo de redes sociais afetava meu sono e minha concentração. Agora aprendi a gerenciar meu tempo e estou mais presente na vida real."
+  },
+  {
+    "id": 4,
+    "nome": "Ana",
+    "idade": 29,
+    "vicio": "Comida",
+    "texto": "O vício em comida afetava minha saúde física e emocional. Com acompanhamento nutricional e psicológico, encontrei equilíbrio e qualidade de vida."
+  }
+]

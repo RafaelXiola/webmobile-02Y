@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "pergunta": "Como sei se estou com um vício?",
+    "resposta": "Sintomas comuns incluem perda de controle, abstinência, impacto na vida social e profissional. Procure ajuda profissional para avaliação adequada. Alguns sinais de alerta incluem: dificuldade em parar, tolerância aumentada, negligência de responsabilidades e continuação apesar de consequências negativas."
+  },
+  {
+    "id": 2,
+    "pergunta": "O vício tem cura?",
+    "resposta": "Sim, o vício é tratável. Com o apoio adequado, terapia profissional e determinação pessoal, muitas pessoas conseguem se recuperar e manter a sobriedade. A recuperação é um processo contínuo que requer compromisso e suporte."
+  },
+  {
+    "id": 3,
+    "pergunta": "Qual é a duração do tratamento?",
+    "resposta": "A duração varia de pessoa para pessoa e depende do tipo e gravidade do vício. Alguns programas duram de 30 a 90 dias, enquanto outros podem ser mais longos. O acompanhamento contínuo é importante para manter a recuperação."
+  },
+  {
+    "id": 4,
+    "pergunta": "Posso receber tratamento em casa?",
+    "resposta": "Sim, oferecemos programas ambulatoriais para pacientes que desejam receber tratamento enquanto vivem em casa. No entanto, casos mais graves podem requerer internação para desintoxicação segura e suporte intensivo."
+  },
+  {
+    "id": 5,
+    "pergunta": "Como posso apoiar um familiar com vício?",
+    "resposta": "Ofereça apoio sem julgamento, encoraje o tratamento profissional, estabeleça limites saudáveis e considere participar de grupos de apoio para familiares. A educação sobre o vício também ajuda a compreender melhor a situação."
+  },
+  {
+    "id": 6,
+    "pergunta": "Qual é o custo do tratamento?",
+    "resposta": "Os custos variam conforme o tipo de programa e duração do tratamento. Oferecemos opções para diferentes orçamentos e podemos ajudar a explorar opções de financiamento ou cobertura de seguros."
+  }
+]

@@ -1,0 +1,105 @@
+.rodape {
+    background: #000;
+    color: #fff;
+    padding: 60px 0 30px;
+}
+
+.containerFooter {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.conteudoRodape {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 60px;
+    align-items: flex-start;
+}
+
+.logoRodape {
+    display: flex;
+    align-items: center;
+}
+
+.iconeLogo {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconeLogo::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: #000;
+    border-radius: 50%;
+}
+
+.linksRodape {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+.colunaRodape h4 {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.colunaRodape a {
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.colunaRodape a:hover {
+    color: #fff;
+}
+
+.iconesSociais {
+    display: flex;
+    gap: 15px;
+}
+
+.iconeSocial {
+    width: 32px;
+    height: 32px;
+    background: #333;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.iconeSocial:hover {
+    background: #555;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .conteudoRodape {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .linksRodape {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .linksRodape {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}

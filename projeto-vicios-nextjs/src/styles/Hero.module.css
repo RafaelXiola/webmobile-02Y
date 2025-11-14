@@ -1,0 +1,138 @@
+.secaoPrincipal {
+    padding: 120px 0 80px;
+    background: #ffffff;
+    margin-top: 80px;
+}
+
+.conteudoPrincipal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.textoPrincipal {
+    animation: aparecer-de-baixo 0.8s ease-out;
+}
+
+.tituloPrincipal {
+    font-size: 48px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.subtituloPrincipal {
+    font-size: 24px;
+    color: #666;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.descricaoPrincipal {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.imagemPrincipal {
+    animation: aparecer-de-baixo 0.8s ease-out 0.2s both;
+}
+
+.imagemPlaceholder {
+    width: 100%;
+    height: 300px;
+    background: #f0f0f0;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: carregando 2s infinite;
+}
+
+.imagemPlaceholder:hover {
+    transform: scale(1.02);
+}
+
+.imagemPlaceholder::before {
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    border: 2px dashed #ccc;
+}
+
+.imagemPlaceholder::after {
+    content: '×';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    color: #ccc;
+}
+
+.botaoSecundario {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.botaoSecundario:hover {
+    background: #333;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes aparecer-de-baixo {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes carregando {
+    0% {
+        background-position: 200% 0;
+    }
+    100% {
+        background-position: -200% 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .conteudoPrincipal {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .tituloPrincipal {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 480px) {
+    .secaoPrincipal {
+        padding: 100px 0 60px;
+    }
+
+    .tituloPrincipal {
+        font-size: 28px;
+    }
+}
