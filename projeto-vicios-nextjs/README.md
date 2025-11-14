@@ -203,18 +203,6 @@ npm run build
 npm start
 ```
 
-### Deploy no Vercel
-1. Conecte seu repositório GitHub
-2. Importe o projeto no Vercel
-3. O deploy acontecerá automaticamente
-
-### Deploy no GitHub Pages
-O Next.js pode ser exportado como estático:
-```bash
-npm run build
-npm run export
-```
-
 ## 🐛 Troubleshooting
 
 ### Porta 3000 já em uso
@@ -240,15 +228,3 @@ Verifique se o `jsconfig.json` está configurado corretamente com os aliases.
 - Efeitos colaterais usam `useEffect`
 - Sem Context API - apenas estado local
 - Fetch acontece no cliente com `useEffect`
-
-## 📄 Licença
-
-Este projeto é de código aberto e pode ser usado livremente.
-
-## 👥 Autor
-
-Desenvolvido como um projeto educacional de Next.js e React.
-
----
-
-**Desenvolvido com ❤️ usando Next.js e React**
