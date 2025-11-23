@@ -47,7 +47,11 @@ export default function Hero() {
             <button className={styles.botaoSecundario}>Comece sua jornada agora!</button>
           </div>
           <div className={styles.imagemPrincipal}>
-            <div className={styles.imagemPlaceholder}></div>
+            <img
+              src="/imagens/img-hero.png"
+              alt="Imagem principal da campanha"
+              className={styles.imagemPlaceholder}
+            />
           </div>
         </div>
       </div>

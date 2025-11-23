@@ -61,7 +61,13 @@ export default function Testimonials() {
         </p>
 
         <div className={styles.conteudoDepoimentos}>
-          <div className={styles.imagemDepoimentos}></div>
+          <div className={styles.imagemDepoimentos}>
+            <img
+              src="/imagens/img-testimonials.png"
+              alt="Ilustração de pessoas compartilhando seus relatos"
+              className={styles.imagemDepoimentos}
+            />
+          </div>
           <div className={styles.listaDepoimentos}>
             {testimonials.map((testimonial, index) => (
               <div key={testimonial.id} className={styles.itemDepoimento} style={{ animationDelay: `${index * 0.1}s` }}>
