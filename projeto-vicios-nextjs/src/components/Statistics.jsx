@@ -80,7 +80,13 @@ export default function Statistics() {
           ))}
         </div>
 
-        <div className={styles.imagemEstatisticas}></div>
+        <div className={styles.imagemEstatisticas}>
+          <img 
+            src="/imagens/img-statistics.png" 
+            alt="Ilustração simbolizando apoio comunitário na quebra do ciclo de vícios"
+            className={styles.ilustracaoEstatisticas}
+          />
+        </div>
       </div>
     </section>
   );

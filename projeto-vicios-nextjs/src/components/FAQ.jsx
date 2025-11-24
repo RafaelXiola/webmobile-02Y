@@ -47,7 +47,13 @@ export default function FAQ() {
     <section className={styles.perguntasFrequentes} id="faq">
       <div className="container">
         <div className={styles.conteudoFaq}>
-          <div className={styles.imagemFaq}></div>
+          <div className={styles.imagemFaq}>
+            <img
+              src="/imagens/img-faq.png"
+              alt="Ilustração representando clareza e solução de dúvidas na superação de vícios"
+              className={styles.ilustracaoFaq}
+            />
+          </div>
           <div className={styles.listaFaq}>
             <h2 className={styles.tituloSecao}>Perguntas Frequentes</h2>
             {faqs.map((faq, index) => (
